@@ -1,0 +1,27 @@
+<html>
+
+<head></head>
+
+<body>
+
+  Book name:<br>
+  <input type="text" name="title" id="title">
+
+  <button type="button" onclick="findBook()">
+    Search.</button>
+</body>
+
+</html>
+
+<script>
+  function findBook() {
+    var req = new XMLHttpRequest();
+    req.open('GET', 'http://localhost:3000/books/?title=' + document.getElementById('title').value, false);
+    req.send(null);
+    if (req.status == 200)
+      console.log(req.responseText);
+    alert(req.responseText);
+
+  }
+
+</script>

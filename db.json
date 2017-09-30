@@ -1,0 +1,30 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Cartas del diablo a su sobrino",
+      "author": "C.S. Lewis"
+    },
+    {
+      "id": 2,
+      "title": "HarryPotter",
+      "author": "J.K. Rowling"
+    },
+    {
+      "id": 3,
+      "title": "El esbirro",
+      "author": "Serguei Kurdakov"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "No puedes parar de leer hasta terminas la ultima pagina",
+      "email": "carlos@gmail.com",
+      "postId": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
